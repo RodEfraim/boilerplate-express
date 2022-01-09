@@ -15,6 +15,9 @@
  * To see which process is running run the following:
  * lsof -i :<PORT NUMBER>
  * 
+ * To avoid manually killing the program, when wanting to exit, use CONTROL + C. This
+ * will kill the enitre process, thus allowing you to npm start with no errors.
+ * 
  */
 
 require('dotenv').config()
